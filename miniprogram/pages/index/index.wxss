@@ -1,0 +1,87 @@
+.wrapper {
+  height: 100vh;
+}
+
+.cont {
+  display: flex;
+  height: calc(100vh - 128rpx);
+}
+
+.cont .menu {
+  flex: 0 0 150rpx;
+  border-right: 1px #ddd solid;
+}
+
+.menu-item {
+  padding: 15rpx 20rpx;
+  border-bottom: 1rpx solid #ddd;
+  text-align: center;
+}
+
+.menu-item.active {
+  background: #eee;
+}
+
+.cont .goods {
+  padding: 0 10rpx;
+  flex: 1;
+  height: 100%;
+  background: #fff;
+}
+
+.good {
+  display: flex;
+  margin-top: 10rpx;
+  height: 200rpx;
+}
+
+.good .img {
+  flex: 0 0 196rpx;
+  width: 100%;
+  height: 100%;
+}
+
+.good .des {
+  flex: 1;
+  padding: 20rpx;
+  border: 1px solid #eee;
+}
+
+.good .des-item {
+  margin-bottom: 6rpx;
+  font-size: 25rpx;
+}
+
+.good .des-item:last-child {
+  margin-bottom: 0;
+}
+
+.good .des-item.right {
+  text-align: right;
+}
+
+.good .title {
+  margin-right: 10rpx;
+}
+
+.good .btn {
+  display: inline-block;
+  width: 100rpx;
+  height: 40rpx;
+  font-size: 20rpx;
+  line-height: 40rpx;
+}
+
+.nav {
+  display: flex;
+  height: 128rpx;
+  border-top: 1rpx #ddd solid;
+  align-items: center;
+}
+
+.nav .tab {
+  flex: 1;
+  height: 100%;
+  line-height: 128rpx;
+  text-align: center;
+}

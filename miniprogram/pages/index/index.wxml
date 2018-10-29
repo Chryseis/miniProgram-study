@@ -1,0 +1,138 @@
+<!--index.wxml-->
+<view class='wrapper'>
+  <view class='cont'>
+    <scroll-view class='menu' scroll-y>
+      <view class='menu-item active'>iPhone</view>
+      <view class='menu-item'>Huawei</view>
+      <view class='menu-item'>Xiaomi</view>
+      <view class='menu-item'>Vivo</view>
+      <view class='menu-item'>Samsung</view>
+    </scroll-view>
+    <scroll-view class='goods' scroll-y>
+      <view class='good'>
+        <image src='./images/iPhone5.jpg' class='img' />
+        <view class='des'>
+          <view class='des-item'>
+            <text class='title'>型号：</text>
+            <text class='info'>iPhone5</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>系统：</text>
+            <text class='info'>IOS 8.0</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>借机人：</text>
+            <text class='info'>Allen</text>
+          </view>
+          <view class='des-item right'>
+            <button class='btn' bindtap="scanCode">借机</button>
+          </view>
+        </view>
+      </view>
+      <view class='good'>
+        <image src='./images/iPhone5.jpg' class='img' />
+        <view class='des'>
+          <view class='des-item'>
+            <text class='title'>型号：</text>
+            <text class='info'>iPhone5</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>系统：</text>
+            <text class='info'>IOS 8.0</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>借机人：</text>
+            <text class='info'>Allen</text>
+          </view>
+          <view class='des-item right'>
+            <button class='btn'>借机</button>
+          </view>
+        </view>
+      </view>
+      <view class='good'>
+        <image src='./images/iPhone5.jpg' class='img' />
+        <view class='des'>
+          <view class='des-item'>
+            <text class='title'>型号：</text>
+            <text class='info'>iPhone5</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>系统：</text>
+            <text class='info'>IOS 8.0</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>借机人：</text>
+            <text class='info'>Allen</text>
+          </view>
+          <view class='des-item right'>
+            <button class='btn'>借机</button>
+          </view>
+        </view>
+      </view>
+      <view class='good'>
+        <image src='./images/iPhone5.jpg' class='img' />
+        <view class='des'>
+          <view class='des-item'>
+            <text class='title'>型号：</text>
+            <text class='info'>iPhone5</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>系统：</text>
+            <text class='info'>IOS 8.0</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>借机人：</text>
+            <text class='info'>Allen</text>
+          </view>
+          <view class='des-item right'>
+            <button class='btn'>借机</button>
+          </view>
+        </view>
+      </view>
+      <view class='good'>
+        <image src='./images/iPhone5.jpg' class='img' />
+        <view class='des'>
+          <view class='des-item'>
+            <text class='title'>型号：</text>
+            <text class='info'>iPhone5</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>系统：</text>
+            <text class='info'>IOS 8.0</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>借机人：</text>
+            <text class='info'>Allen</text>
+          </view>
+          <view class='des-item right'>
+            <button class='btn'>借机</button>
+          </view>
+        </view>
+      </view>
+      <view class='good'>
+        <image src='./images/iPhone5.jpg' class='img' />
+        <view class='des'>
+          <view class='des-item'>
+            <text class='title'>型号：</text>
+            <text class='info'>iPhone5</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>系统：</text>
+            <text class='info'>IOS 8.0</text>
+          </view>
+          <view class='des-item'>
+            <text class='title'>借机人：</text>
+            <text class='info'>Allen</text>
+          </view>
+          <view class='des-item right'>
+            <button class='btn'>借机</button>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='nav'>
+    <navigator class='tab'>Store</navigator>
+    <navigator class='tab'>Me</navigator>
+  </view>
+</view>
